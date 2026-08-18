@@ -1,9 +1,3 @@
-Prova Técnica — Desenvolvedor Backend com Foco em IA
-🛠️ Instalação das Dependências
-Antes de rodar as questões, instale os pacotes necessários:
-
-Bash
-pip install -r requirements.txt
 📚 Questão 1: API de Biblioteca Virtual (FastAPI + SQLite)
 O que faz:
 Cria uma API RESTful para cadastrar e consultar livros (título, autor, data de publicação e resumo).
@@ -36,9 +30,9 @@ Possui integração nativa com o LangSmith para rastreamento de traces, latênci
 Como rodar:
 Configure sua chave da OpenAI no terminal:
 
-Linux/macOS: export OPENAI_API_KEY="sua_chave_aqui"
-
 Windows (PowerShell): $env:OPENAI_API_KEY="sua_chave_aqui"
+
+Linux/macOS: export OPENAI_API_KEY="sua_chave_aqui"
 
 Execute o chatbot:
 
